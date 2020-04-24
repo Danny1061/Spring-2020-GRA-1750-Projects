@@ -1,0 +1,88 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+
+@font-face{
+	font-family: "Roboto Thin";
+	src: url("roboto/Roboto-Thin.ttf");
+}
+
+h1{
+	font-family: 'Roboto Thin';
+	font-size: 250%;
+	color: #000000;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Roboto Thin';
+	font-size: 200%;
+	color: #9C9C9C;
+	text-align: center;
+}
+
+p{
+	text-align: right;
+	font-family: 'Roboto Thin';
+	font-size: 95%;
+	color: #000000;
+}
+
+
+.p1{
+	color: #9C9C9C;
+}
+
+#rectangle-container{
+	width: 650px;
+	height: 960px;
+	background: url("images/wedding wallpaper1.jpg");
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	}
+
+#inside{
+	width: 500px;
+	height: 800px;
+	padding-top: 150px;
+	background: url("images/wedding-wallpaper2.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0 auto;
+}	
+
+   #heart {
+      position: relative;
+      width: 100px;
+      height: 90px;
+      margin-top: 50px;
+      margin-left: 200px;
+    }
+    #heart:before,
+    #heart:after {
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: 0;
+      width: 50px;
+      height: 80px;
+      background: #ffbfa8;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+    #heart:after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: 100% 100%;
+    }
+
+#inside-info{
+	width: 300px;
+	height: 300px;
+	margin-left: 185px;
+	margin-top:160px;
+}

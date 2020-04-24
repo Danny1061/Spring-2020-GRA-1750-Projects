@@ -1,0 +1,103 @@
+body{
+	background-image: url("images/wooden-background3.jpg");
+	
+}
+
+#maincontainer{
+	background-color: white;
+	margin: 0 auto;
+	width: 1000px;
+	height: 3000px;
+}
+
+#navbar{
+	width: 1000px;
+	margin-top: 10px;
+	height: 180px;
+}
+
+#navlogo{
+	margin-left: 30px;
+	margin-top: 50px;
+	
+}
+
+#title{
+	width: 250px;
+	height:100px;
+	margin-left: 410px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+
+h1{
+	font-family: 'Roboto Thin';
+	font-size: 70px;
+}
+
+
+u {
+	text-decoration: none;
+}
+
+u:hover {
+color: #000000;
+border-bottom: 5px solid #F80000;
+}
+
+#header{
+	width: 450px;
+	height: 50px;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+h2{
+	font-family: 'Roboto Thin';
+	font-size: 40px;
+}
+
+
+hr{
+  border: 1px solid red;
+	margin-right: 470px;
+}
+
+#imageheader{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+
+span {
+    float: left;
+    width: 50%;
+    text-align: center;
+    display: block;
+  }
+
+.container{
+	width: 900px;
+	height: 450px;
+	margin: 0 auto;
+}
+
+.group-header{
+	width: 300px;
+	height: 100px;
+	margin-left: 30px;
+}
+
+h3{
+	font-family: 'Roboto Thin';
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+p{
+	font-family: "Roboto Thin";
+	font-size: 15px;
+	color:#5C5C5C;
+}
+

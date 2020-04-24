@@ -1,0 +1,38 @@
+body{
+	margin: 0 auto;
+	padding: 0 auto;
+	background: #ededed;
+}
+
+#main-container{
+	margin: 0 auto;
+	width: 1200px;
+	height: 600px;
+	background: #3d3d3d;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  height: 600px;
+  background-color: #ffffff;
+}
+
+li a {
+  display: block;
+  color: #000;
+  margin-bottom: 25px;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 35px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+li a:hover {
+  background-color: #3d3d3d;
+  color: white;
+  text-decoration: underline;
+}
